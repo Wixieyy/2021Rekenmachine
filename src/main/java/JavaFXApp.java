@@ -30,15 +30,21 @@ public class JavaFXApp extends Application {
     }
 
     protected int computeAdd (int number1, int number2) {
-        return 0;
+       int antwoord = number1 + number2;
+        return antwoord;
     }
 
     protected int computeMultiply (int number1, int number2) {
-        return 0;
+
+        int antwoord = number1 * number2;
+
+        return antwoord;
     }
 
     protected int computeDivide (int number1, int number2) {
-        return 0;
+
+        int antwoord = number1 / number2;
+        return antwoord;
     }
 
     private void compute (String operator) {
