@@ -30,19 +30,17 @@ public class JavaFXApp extends Application {
     }
 
     protected int computeAdd (int number1, int number2) {
-       int antwoordAdd = number1 + number2;
+        int antwoordAdd = number1 + number2;
         return antwoordAdd;
     }
 
     protected int computeMultiply (int number1, int number2) {
 
         int antwoordMultiply = number1 * number2;
-
         return antwoordMultiply;
     }
 
     protected int computeDivide (int number1, int number2) {
-
         int antwoordDivide = number1 / number2;
         return antwoordDivide;
     }
